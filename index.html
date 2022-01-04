@@ -14,27 +14,55 @@
 
 <body class="grey lighten-5">
   <div class="blur-background">
-    <!-- Dropdown Structure -->
-    <ul id="dropdown1" class="dropdown-content">
-      <li><a href="#!">one</a></li>
-      <li><a href="#!">two</a></li>
-      <li class="divider"></li>
-      <li><a href="#!">three</a></li>
-    </ul>
     <div class="navbar-fixed">
       <nav class="pd transparent z-depth-0 blue-grey-text">
         <div class="nav-wrapper">
-          <a href="#!" class="brand-logo blue-grey-text">Laxmedical</a>
+          <a href="#!" class="brand-logo blue-grey-text">
+            <span class="blue-text text-extrabold">Lax</span><span class="green-text text-light">medical</span></a>
           <ul class="right hide-on-med-and-down blue-grey-text">
-            <li><a href="sass.html">Sass</a></li>
             <li>
-              <a href="badges.html">
-                <button class="btn green">Contact</button>
+              <a class="btn green waves-effect waves-light modal-trigger" href="#modal1">
+                Contact
               </a>
             </li>
           </ul>
         </div>
       </nav>
+    </div>
+
+    <div id="modal1" class="modal border-radius">
+      <div class="modal-content">
+        <h4 class="center-align text-semibold">Nos contacts</h4>
+        <p>Contactez nous maintenant par</p>
+        <div class="modal-body">
+          <table>
+            <thead></thead>
+            <tbody>
+              <tr>
+                <th>Whatsapp</th>
+                <td>
+                  <a class="blue-text" href="https://api.whatsapp.com/send?phone=243810843164&text=Laxtech">+243 810843164</a>
+                </td>
+              </tr>
+              <tr>
+                <th>Mail</th>
+                <td><a class="blue-text" href="mailto:akelaxmerdi@gmail.com">akelaxmerdi@gmail.com</a></td>
+              </tr>
+              <tr>
+                <th>Facebook</th>
+                <td><a class="blue-text" href="https://web.facebook.com/Akelax-Technologie-111730313761869">Laxtech</a> </td>
+              </tr>
+              <tr>
+                <th>Tweter</th>
+                <td class="blue-text">A-tech</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-light btn-flat">Fermer</a>
+      </div>
     </div>
 
     <header class="pd">
@@ -47,6 +75,13 @@
           <h2 class="center-align hide-on-med-and-up">
             Aide les <span class="blue-text text-bold">medecins</span> à mieux vous <span class="green-text text-bold">soigner</span>
           </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis obcaecati dolorum perspiciatis voluptatibus totam eaque id maiores rerum, distinctio ipsum, culpa exercitationem quasi, eos amet ratione tenetur dicta quos voluptatum.
+          </p>
+          <br><br>
+          <div>
+            <a class="btn-large z-depth-3 waves-effect waves-light modal-trigger" href="#modal1">Contactez-nous</a>
+          </div>
           <br><br><br>
         </div>
         <div class="col s12 m6">
