@@ -166,7 +166,6 @@ nav .logo-container img {
 
 main {
   top: 0 !important;
-  min-height: 100vh;
   background-color: #f8f9fa;
   transition: all .4s ease-out;
 }
