@@ -1,0 +1,19 @@
+body {
+  background: url('../images/Sans\ titre.png') center center;
+}
+
+.blur-background {
+  backdrop-filter: blur(50px);
+  background: rgba(245, 247, 248, 0.774);
+}
+
+.app-ullistration-container {
+  height: 100vh;
+}
+
+.app-ullistration {
+  border-radius: 20px;
+  width: 280px;
+  height: 80vh;
+  margin: auto;
+}

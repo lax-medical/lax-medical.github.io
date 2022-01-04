@@ -2,171 +2,211 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job pour tous</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lax-medical</title>
 
-    <link rel="stylesheet" href="./static/css/materialize.min.css">
-    <link rel="stylesheet" href="./static/css/style.css">
+  <link rel="stylesheet" href="./static/css/materialize.min.css">
+  <link rel="stylesheet" href="./static/css/style.css">
+  <link rel="stylesheet" href="./static/css/laxmedical-ui.css">
 </head>
 
-<body>
+<body class="grey lighten-5">
+  <div class="blur-background">
     <!-- Dropdown Structure -->
     <ul id="dropdown1" class="dropdown-content">
-        <li><a href="#!">one</a></li>
-        <li><a href="#!">two</a></li>
-        <li class="divider"></li>
-        <li><a href="#!">three</a></li>
+      <li><a href="#!">one</a></li>
+      <li><a href="#!">two</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">three</a></li>
     </ul>
     <div class="navbar-fixed">
-        <nav class="blue darken-2">
-            <div class="nav-wrapper container">
-                <a href="#!" class="brand-logo">Logo</a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <!-- Dropdown Trigger -->
-                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav class="pd transparent z-depth-0 blue-grey-text">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo blue-grey-text">Laxmedical</a>
+          <ul class="right hide-on-med-and-down blue-grey-text">
+            <li><a href="sass.html">Sass</a></li>
+            <li>
+              <a href="badges.html">
+                <button class="btn green">Contact</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
 
-    <header class="container">
-        <div class="row">
-            <h3 class="col s12">Job pour tous </h3>
-            <div class="col s12">Remplissez votre cv</div>
+    <header class="pd">
+      <div class="row center-col">
+        <div class="col s12 m6">
+
+          <h2 class="hide-on-small-and-down">
+            Aide les <span class="blue-text text-bold">medecins</span> à mieux vous <span class="green-text text-bold">soigner</span>
+          </h2>
+          <h2 class="center-align hide-on-med-and-up">
+            Aide les <span class="blue-text text-bold">medecins</span> à mieux vous <span class="green-text text-bold">soigner</span>
+          </h2>
+          <br><br><br>
         </div>
+        <div class="col s12 m6">
+          <div class="app-ullistration-container">
+            <div class="app-ullistration card z-depth-5 transparent">
+              <div class="card-content">
+                <div class="z-depth-3 pd20 border-radius">
+                  <div class="row">
+                    <div class="col s3">
+                      <span class=" btn-floating white z-depth-0">0</span>
+                    </div>
+                    <div class="col s3">
+                      <span class=" btn-floating white z-depth-0">0</span>
+                    </div>
+                    <div class="col s3">
+                      <span class=" btn-floating white z-depth-0">0</span>
+                    </div>
+                    <div class="col s3">
+                      <span class=" btn-floating white z-depth-0">0</span>
+                    </div>
+                  </div>
+                  <div class="border-radius white pd20">
+                    mobile
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </header>
-    <main class="grey lighten-5">
-        <section class="container">
-            <br>
-            <div class="row">
-                <form class="col s12">
-                    <div class="white section z-depth-5">
-                        <h4>Identités</h4>
-                        <div class="row">
-                            <div class="input-field col s12 m4">
-                                <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-                                <label for="first_name">Nom</label>
-                            </div>
-                            <div class="input-field col s12 m4">
-                                <input id="last_name" type="text" class="validate">
-                                <label for="last_name">Post-nom</label>
-                            </div>
-                            <div class="input-field col s12 m4">
-                                <input id="last_name" type="text" class="validate">
-                                <label for="last_name">Prnom</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s12 m4">
-                                <p>
-                                    <div class="row">
-                                        <div class="col s2">Sex</div>
-                                        <label class="col s5">
+    <main class="">
+      <section class="container">
+        <br>
+        <div class="row">
+          <form class="col s12">
+            <div class="white section z-depth-5">
+              <h4>Identités</h4>
+              <div class="row">
+                <div class="input-field col s12 m4">
+                  <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                  <label for="first_name">Nom</label>
+                </div>
+                <div class="input-field col s12 m4">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Post-nom</label>
+                </div>
+                <div class="input-field col s12 m4">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Prnom</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12 m4">
+                  <p>
+                    <div class="row">
+                      <div class="col s2">Sex</div>
+                      <label class="col s5">
                                             <input class="with-gap" name="group1" type="radio" checked />
                                             <span>Homme</span>
                                         </label>
-                                        <label class="col s5">
+                      <label class="col s5">
                                             <input class="with-gap" name="group1" type="radio" />
                                             <span>Femme</span>
                                         </label>
-                                    </div>
-                                </p>
-                            </div>
-                            <div class="input-field col s12 m4">
-                                <!-- 
+                    </div>
+                  </p>
+                </div>
+                <div class="input-field col s12 m4">
+                  <!-- 
                                 <input disabled value="I am not editable"  type="text" class="validate"> -->
-                                <input id="date" type="text" class="datepicker">
-                                <label for="date">Date de naissance</label>
-                            </div>
-                            <div class="input-field col s12 m4">
-                                <!-- 
+                  <input id="date" type="text" class="datepicker">
+                  <label for="date">Date de naissance</label>
+                </div>
+                <div class="input-field col s12 m4">
+                  <!-- 
                                 <input disabled value="I am not editable"  type="text" class="validate"> -->
-                                <input id="date" type="text" class="datepicker">
-                                <label for="date">Lieu de naissance</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <input placeholder="Votre adresse" id="adress" type="text" class="validate">
-                                <label for="adress">Adresse</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s12 m4">
-                                <input placeholder="Placeholder" id="phone_number" type="text" class="validate">
-                                <label for="phone_number">Numero de téléphone</label>
-                            </div>
-                            <div class="input-field col s12 m4">
-                                <input id="email" type="email" class="validate">
-                                <label for="email">Adresse mail</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col s12 file-field input-field">
-                                <div class="btn">
-                                    <span>Choissir une photo</span>
-                                    <input type="file" multiple>
-                                </div>
-                                <div class="file-path-wrapper">
-                                    <input class="file-path validate" type="text" placeholder="Soumettez une photo passe-port">
-                                </div>
-                            </div>
-                        </div>
-                    </div><br>
-                    <div class="white  section z-depth-5">
-                        <h4>Experience</h4>
-                        <div class="row">
-                            <div class="input-field col s6">
-                                <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-                                <label for="first_name">First Name</label>
-                            </div>
-                            <div class="input-field col s6">
-                                <input id="last_name" type="text" class="validate">
-                                <label for="last_name">Last Name</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-                                <label for="disabled">Disabled</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <input id="password" type="password" class="validate">
-                                <label for="password">Password</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <input id="email" type="email" class="validate">
-                                <label for="email">Email</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col s12">
-                                This is an inline input field:
-                                <div class="input-field inline">
-                                    <input id="email_inline" type="email" class="validate">
-                                    <label for="email_inline">Email</label>
-                                    <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div><br>
-                </form>
-            </div>
-        </section>
+                  <input id="date" type="text" class="datepicker">
+                  <label for="date">Lieu de naissance</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input placeholder="Votre adresse" id="adress" type="text" class="validate">
+                  <label for="adress">Adresse</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12 m4">
+                  <input placeholder="Placeholder" id="phone_number" type="text" class="validate">
+                  <label for="phone_number">Numero de téléphone</label>
+                </div>
+                <div class="input-field col s12 m4">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Adresse mail</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col s12 file-field input-field">
+                  <div class="btn">
+                    <span>Choissir une photo</span>
+                    <input type="file" multiple>
+                  </div>
+                  <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text" placeholder="Soumettez une photo passe-port">
+                  </div>
+                </div>
+              </div>
+            </div><br>
+            <div class="white  section z-depth-5">
+              <h4>Experience</h4>
+              <div class="row">
+                <div class="input-field col s6">
+                  <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+                  <label for="disabled">Disabled</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="password" type="password" class="validate">
+                  <label for="password">Password</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col s12">
+                  This is an inline input field:
+                  <div class="input-field inline">
+                    <input id="email_inline" type="email" class="validate">
+                    <label for="email_inline">Email</label>
+                    <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+                  </div>
+                </div>
+              </div>
+            </div><br>
+          </form>
+        </div>
+      </section>
     </main>
+  </div>
 
-
-    <script src="./static/js/materialize.min.js"></script>
-    <script src="./static/js/app.js"></script>
+  <script src="./static/js/materialize.min.js"></script>
+  <script src="./static/js/app.js"></script>
 </body>
 
 </html>
