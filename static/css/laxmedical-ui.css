@@ -5,6 +5,8 @@ body {
 .blur-background {
   backdrop-filter: blur(50px);
   background: rgba(245, 247, 248, 0.774);
+  width: 100%;
+  overflow: hidden;
 }
 
 .app-ullistration-container {
@@ -12,6 +14,7 @@ body {
 }
 
 .app-ullistration {
+  position: relative;
   border-radius: 20px;
   width: 280px;
   height: 80vh;
